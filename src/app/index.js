@@ -4,6 +4,8 @@ import "regenerator-runtime/runtime";
 import React from "react";
 import ReactDOM from "react-dom";
 
+import App from "./app";
+
 if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("/service-worker.js");
@@ -12,4 +14,4 @@ if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
 
 const rootElement = document.getElementById("root");
 
-ReactDOM.render(<div>Hello React!</div>, rootElement);
+ReactDOM.render(<App />, rootElement);

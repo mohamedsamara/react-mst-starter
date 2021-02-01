@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  &.main-content {
+    height: 100vh;
+  }
+}

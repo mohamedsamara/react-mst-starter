@@ -90,22 +90,6 @@ module.exports = merge(common, {
     nodeEnv: "production",
     sideEffects: true,
     concatenateModules: true,
-    // runtimeChunk: "single",
-    // splitChunks: {
-    //   cacheGroups: {
-    //     vendors: {
-    //       test: /[\\/]node_modules[\\/]/,
-    //       name: "vendors",
-    //       chunks: "all",
-    //     },
-    //     styles: {
-    //       test: /\.css$/,
-    //       name: "styles",
-    //       chunks: "all",
-    //       enforce: true,
-    //     },
-    //   },
-    // },
     splitChunks: {
       chunks: "all",
       name: false,
