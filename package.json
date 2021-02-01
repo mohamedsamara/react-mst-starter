@@ -1,0 +1,23 @@
+{
+  "name": "react-mst-starter",
+  "version": "1.0.0",
+  "description": "React MST Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedsamara/react-mst-starter.git"
+  },
+  "keywords": [
+    "react",
+    "mst"
+  ],
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedsamara/react-mst-starter/issues"
+  },
+  "homepage": "https://github.com/mohamedsamara/react-mst-starter#readme"
+}
