@@ -5,7 +5,6 @@
 Some basic Git commands are:
 
 ``` 
-
 $ git clone https://github.com/mohamedsamara/react-mst-starter.git
 $ cd project
 $ npm install
@@ -14,21 +13,18 @@ $ npm install
 ## Start
 
 ``` 
-
 $ npm start
 ```
 
 ## Simple build for production
 
 ``` 
-
 $ npm run build
 ```
 
 ## Run the application for production
 
 ``` 
-
 $ npm run serve
 ```
 
