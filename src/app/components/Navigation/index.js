@@ -42,11 +42,11 @@ const Navigation = () => {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <Link className="button is-primary" to="/test2">
-                <strong>Sign up</strong>
+              <Link className="button is-light" to="/posts">
+                Posts
               </Link>
-              <Link className="button is-light" to="/test">
-                Log in
+              <Link className="button is-primary" to="/post/add">
+                <strong>Add Post</strong>
               </Link>
             </div>
           </div>
